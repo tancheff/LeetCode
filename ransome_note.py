@@ -15,6 +15,7 @@
 ransom_note = "aa"
 magazine = "aab"
 
+
 class Solution:
     def canConstruct(self, ransomNote: str, magazine: str) -> bool:
         for letter in magazine:
@@ -24,6 +25,7 @@ class Solution:
             return False
         else:
             return True
+
 
 solution = Solution()
 print(solution.canConstruct(ransom_note, magazine))
