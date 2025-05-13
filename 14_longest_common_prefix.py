@@ -12,11 +12,14 @@ class Solution:
 
         shortest_word = min([len(s) for s in strs])
 
+    # TO DO: fix nested loop!
+
         for i in range(0, shortest_word):
             prefix += strs[0][i]
             for j in range(0, len(strs)):
                 if prefix[i] != strs1[i][j]:
-                    break
+                    return prefix
+
 
         return prefix
 
