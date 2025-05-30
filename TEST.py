@@ -17,7 +17,7 @@
 #         print(letter)
 from collections import Counter
 
-words2 = ["e","oo"]
+words2 = ["e", "oo"]
 subsets = []
 
 # [expression for item1 in iterable1 for item2 in iterable2]
@@ -29,3 +29,5 @@ print(words2_len)
 combined_string = "".join(word for word in words2)
 
 print(Counter(combined_string))
+
+print(pow(2, 5)-2)
